@@ -1,0 +1,348 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+#ellie-imagens{
+  margin:auto;
+}
+header{
+  color: white;
+}
+
+.bv{
+  text-align: center;
+}
+
+.infos{
+  text-align: right;
+  padding-right: 30px;
+  font-size: 20px;
+
+}
+#tutorial{
+	color:white;
+  font-size: 20px;
+  padding-right: 20px;
+}
+#logo-pegasus{
+  position: absolute;
+  top: 50px;
+  left:10px;
+  width: 250px;
+}
+
+.ellie{
+  width: 100px;
+  float: right;
+
+}
+.ellie img{
+  width: 90px;
+  height: 70px;
+  float: right;
+  padding-right: 30px;
+  padding-bottom: 10px;
+
+}
+.professor{
+  width: 100px;
+  margin: auto;
+}
+.professor img{
+  width: 100px;
+  height: 100px;
+}
+
+.nav_tabs{
+width: 96%;
+height:540px;
+margin: 100px auto;
+background-color: #fff;
+position: relative;
+background-color:rgb(48, 118, 177);
+}
+.nav_tabs ul{
+list-style: none;
+}
+.nav_tabs ul li{
+float: left;
+width: 15%;
+background-color:rgb(48, 118, 177);
+}
+.nav_tabs label{
+width: 96%;
+padding: 15px 0;
+/*background-color: gray;*/
+background-color: rgb(48, 118, 177);
+border: solid 3px rgb(47,82,143);
+display: block;
+color: #fff;
+cursor: pointer;
+text-align: center;
+border-radius: 5px 5px 0px 0px;
+}
+.rd_tabs:checked ~ label{
+background-color: white;
+color: rgb(48, 118, 177);
+/*background-color: rgb(48, 118, 177);
+border: solid 3px white;*/
+}
+.rd_tabs{
+display: none;
+}
+.content{
+border: 3px solid rgb(47,82,143);
+background-color: #fff;
+display: none;
+position: absolute;
+height: 100%;
+width: 100%;
+left: 0;
+}
+.content article{
+padding: 10px;
+}
+
+.chat{
+  position: absolute;
+  left: 990px;
+  top: 118px;
+  width:25%;
+}
+
+.rd_tabs:checked ~ .content{
+display: block;
+}
+
+#phone-icon{
+  width: 100px;
+  padding-right: 120px;
+}
+#web-icon{
+  width: 175px;
+  padding-right: 120px;
+}
+#project-icon{
+  width: 175px;
+}
+
+
+#mobile{
+  width: 120px;
+  margin-left: 100px;
+}
+
+#web{
+  width: 230px;
+  margin-left: 100px;
+}
+
+#projeto{
+  width: 200px;
+  margin-left: 100px;
+}
+
+#wd{
+  padding-left: 15%;
+  color: rgb(47,82,143);
+  font-size: medium;
+  font-style: oblique;
+}
+
+#dm{
+  padding-left: 10%;
+  color: rgb(47,82,143);
+  font-size: medium;
+  font-style: oblique;
+}
+
+#gp{
+  padding-left: 13%;
+  color: rgb(47,82,143);
+  font-size: medium;
+  font-style: oblique;
+}
+
+#prof-icon{
+  width: 70px;
+  height: 70px;
+  float: left;
+}
+
+#aviso{
+  padding-left: 50px;
+}
+
+#nm_prof{
+  text-align: center;
+}
+
+p{
+  color: rgb(48, 118, 177);
+  font-size: 120%;
+}
+
+.subject{
+  margin-bottom: 15px;
+}
+
+.data{
+  background-color: rgb(48, 118, 177);
+  font-style: rgb(47,82,143);
+  padding: 7px 7px 7px 7px;
+  position: absolute;
+  right: 40%;
+}
+
+#el_input{
+  border-bottom: solid 2px rgb(47,82,143);
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  width: 300px;
+  font-size: 120%;
+  margin-bottom: 25px;
+}
+
+#el_date{
+  color: rgb(47,82,143);
+  border: solid rgb(47,82,143) 3px;
+  border-radius: 7px;
+  font-family: sans-serif;
+  font-size: 120%;
+}
+
+#eli_send{
+  color: rgb(47,82,143);
+  border: solid rgb(47,82,143) 3px;
+  border-radius: 7px;
+  font-family: sans-serif;
+  font-size: 120%;
+  background-color: inherit;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.e1{
+  width:33%;
+  float:left;
+}
+.e2{
+  width:33%;
+  float: left;
+}
+.e3{
+  width:33%;
+  float: right;
+}
+
+.icones{
+  width: 50px;
+  padding-right: 10px;
+}
+
+textarea{
+  border: solid 3px rgb(47,82,143);
+}
+
+
+#prof-icon{
+  width: 70px;
+  height: 70px;
+  float: left;
+}
+
+#aviso{
+  padding-left: 50px;
+}
+
+#nm{
+  text-align: center;
+}
+
+.data{
+  background-color: rgb(48, 118, 177);
+  font-style: rgb(47,82,143);
+  padding: 15px 20px 15px 15px;
+  position: absolute;
+  right: 50%;
+  float: center;
+  color: rgb(255,255,255);
+  border: solid 3px rgb(47,82,143);
+}
+
+  background-color: rgb(48, 118, 177);
+  font-style: rgb(47,82,143);
+  padding: 7px 7px 7px 7px;
+  position: absolute;
+  right: 40%;
+}
+
+legend{
+  font-family: sans-serif;
+  font-size: 140%;
+  font-weight: bold;
+}
+
+
+#idInfo{
+  border-bottom: solid rgb(47,82,143) 3px;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  background: transparent;
+  width: 300px;
+  font-size: 115%;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+input{
+  margin-bottom: 15px;
+}
+
+input::placeholder{
+  color: rgba(47,82,143,.85);
+  font-weight: bold;
+}
+
+#idNascimento{
+
+  font-size: 115%;
+  color: rgb(47,82,143);
+}
+
+#idData{
+  border-bottom: solid rgb(47,82,143) 3px;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  background: transparent;
+  font-size: 115%;
+}
+
+#idUF1{
+  font-family: sans-serif;
+  color: rgb(47,82,143);
+  margin-left: 15px;
+  font-size: 115%;
+}
+
+select{
+  color: rgb(47,82,143);
+  border: solid rgb(47,82,143) 3px;
+  border-radius: 7px;
+  font-family: sans-serif;
+  font-size: 120%;
+}

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<link href="./bootstrap-tour-0.12.0/build/css/bootstrap.min.css" rel="stylesheet">
+	<link href="./bootstrap-tour-0.12.0/build/css/bootstrap-tour.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="style-index.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="Imagens/logo_icon.png">
+<title>Projeto Pegasus</title>
+</head>
+<body>
+  <header>
+    <h1 class="bv">Bem vindo</h1>
+    <a href="login.html"><h2 class="infos">Logout</h2></a>
+
+
+      <div class="logo">
+        <img src="imagens/logo.png" alt="Logo" id="logo-pegasus">
+      </div>
+
+      <div class="professor">
+        <img src="imagens/avatar.png" alt="professor">
+      </div>
+
+      <div class="ellie">
+				<a href="#"><img src="imagens/Ellie.png" alt="ellie" id="ellie"></a>
+				<h3 class="infos"><a href="#" id="tutorial"> Ajuda? </a></h3>
+			  </div>
+
+  </header>
+  <nav class="nav_tabs">
+
+    <ul>
+
+        <li>
+          <input type="radio" name="tabs" class="rd_tabs" id="tab1" checked>
+          <label for="tab1" id="materias">Matérias</label>
+          <div class="content">
+              <article>
+								<table>
+									<tbody>
+										<tr>
+											<th><img src="imagens/phone_icon.png" alt="phoneIcon" id="mobile"></th>
+											<th><img src="imagens/web_icon.png" alt="webIcon" id="web"></th>
+											<th><img src="imagens/project_icon.png" alt="projectIcon" id="projeto"></th>
+										</tr>
+										<tr>
+											<td id="dm">Densevolvimento Mobile</td>
+											<td id="wd">Web Development</td>
+											<td id="gp">Gestao de Projetos</td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="chat">
+									<img src="Imagens/chatellie.jpg" alt="chat">
+								</div>
+              </article>
+          </div>
+        </li>
+
+        <li>
+          <input type="radio" name="tabs" class="rd_tabs" id="tab2">
+          <label for="tab2" id="avisos">Avisos</label>
+          <div class="content">
+              <article>
+								<table>
+									<tr>
+
+										<div class="aviso"> <th><img src="imagens/profa.png" alt="profIcon" id="prof-icon"></th>
+										<th id="aviso"> Entrega de Prova Semestral </th>
+										<div class="data">18/05/2018</div>
+									</tr>
+									<tr>
+										<td id="nm"> Josy R. </td>
+									</tr> </div>
+ 								</table>
+								<table>
+									<tr>
+
+										<div class="aviso"> <th><img src="imagens/prof.png" alt="profIcon" id="prof-icon"></th>
+										<th id="aviso"> Conteúdo da Matéria __________ </th>
+										<div class="data">20/05/2018</div>
+									</tr>
+									<tr>
+										<td id="nm">Matheus N.</td>
+									</tr> </div>
+ 								</table>
+								<table>
+									<tr>
+
+										<div class="aviso"> <th><img src="imagens/dire.png" alt="profIcon" id="prof-icon"></th>
+										<th id="aviso"> Encontro de Diretores e Professores </th>
+										<div class="data">24/05/2018</div>
+									</tr>
+									<tr>
+										<td id="nm">Cris J.</td>
+									</tr> </div>
+ 								</table>
+								<table>
+									<tr>
+
+										<div class="aviso"> <th><img src="imagens/diretora.png" alt="profIcon" id="prof-icon"></th>
+										<th id="aviso"> Liberação calendário provas semestrais e substitutivas </th>
+										<div class="data">28/05/2018</div>
+									</tr>
+									<tr>
+										<td id="nm"> Beatriz V. </td>
+									</tr> </div>
+ 								</table>
+            	</article>
+          </div>
+        </li>
+
+				<li>
+          <input type="radio" name="tabs" class="rd_tabs" id="tab3">
+          <label for="tab3" id="ellie-conteudo">Ellie</label>
+          <div class="content">
+              <article>
+								<div class="e1">
+									<p>Matéria</p>
+									<select class="subject" name="subject" >
+										<option value="Web Development" checked="selected">Web Development</option>
+										<option value="Mobile Development">Mobile Development</option>
+										<option value="Gestao de Projetos">Gestão de Projetos</option>
+									</select>
+									<div>
+										<input type="text" name="topico" placeholder="Tópico" id="el_input" />
+									</div>
+									<div>
+										<input type="text" name="topico" placeholder="Subtópico" id="el_input" />
+									</div>
+									<div>
+										<input type="text" name="topico" placeholder="Palavras chave" id="el_input" />
+									</div>
+									<div class="send">
+										<button type="input" name="enviar" id="eli_send" >Enviar</button>
+									</div>
+								</div>
+								<div class="e2">
+									<p>Disponível a partir de:</p>
+									<input type="date" name="disponivel" id="el_date" />
+									<p>Conteúdo</p>
+									<textarea name="conteudo" rows="8" cols="60"></textarea>
+								</div>
+								<div class="e3">
+									<p>Anexos</p>
+									<div>
+										<img src="Imagens/pdf_icon.png" alt="pdf" class="icones" >
+										<span>Aula 01 - HTML</span>
+									</div>
+									<div>
+										<img src="Imagens/pdf_icon.png" alt="pdf" class="icones" >
+										<span>Aula 01 - Exercícios HTML</span>
+									</div>
+									<p>+</p>
+									<p>Referências</p>
+									<div>
+										<img src="Imagens/net.png" alt="net" class="icones">
+										<span>https://www.w3schools.com/html/default.asp</span>
+									</div>
+									<div>
+										<img src="Imagens/books.png" alt="books" class="icones">
+										<span>“Criando Sites com HTML” - Por Maurício Samy Silva</span>
+									</div>
+
+								</div>
+
+              <!--<table>
+              	<tr>
+              		<th>Matéria</th><th>Disponível a partir de:</th><th>Anexos</th>
+              	</tr>
+								<tr>
+
+								</tr>
+              </table>-->
+              </article>
+          </div>
+        </li>
+
+        <li>
+          <input type="radio" name="tabs" class="rd_tabs" id="tab4">
+          <label for="tab4" id="configuracao">Configurações</label>
+          <div class="content">
+              <article>
+								<legend>Dados Pessoais</legend>
+
+					<table>
+						<tr>
+							<td>
+								<input type="text" name="Nome" id="idInfo"  placeholder="Nome Completo"required />
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="text" name="Telefone" id="idInfo" placeholder="Telefone" required />
+							</td>
+							<tr>
+
+							</tr>
+							<td>
+								<p id="idNascimento">Data de Nascimento: </p>
+								<input type="date" name="dataNasc" id="idData" placeholder="Data de Nascimento" required />
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="text" name="cidade" id="idInfo" placeholder="Cidade" />
+							</td>
+							<td>
+								<span id="idUF1">UF: </span>
+
+								<select name="uf" id="idUF2" />
+								<option value="acre">AC</option>
+								<option value="alagoas">AL</option>
+								<option value="amapa">AP</option>
+								<option value="amazonas">AM</option>
+								<option value="bahia">BA</option>
+								<option value="ceara">CE</option>
+								<option value="df">DF</option>
+								<option value="espiritosanto">ES</option>
+								<option value="goias">GO</option>
+								<option value="maranhao">MA</option>
+								<option value="matogrosso">MT</option>
+								<option value="matogrossosul">MS</option>
+								<option value="minasgerais">MG</option>
+								<option value="para">PA</option>
+								<option value="paraiba">PB</option>
+								<option value="parana">PR</option>
+								<option value="pernambuco">PE</option>
+								<option value="piaui">PI</option>
+								<option value="riojaneiro">RJ</option>
+								<option value="riognorte">RN</option>
+								<option value="riogsul">RS</option>
+								<option value="rondonia">RO</option>
+								<option value="roraima">RR</option>
+								<option value="santacatarina">SC</option>
+								<option value="saopaulo">SP</option>
+								<option value="sergipe">SE</option>
+								<option value="tocantins">TO</option>
+							</select>
+							</td>
+						</tr>
+					</table>
+              </article>
+          </div>
+        </li>
+
+    </ul>
+</nav>
+	<script src="jquery.min.js"></script>
+	<script src="./bootstrap-tour-0.12.0/build/js/bootstrap.min.js"></script>
+	<script src="./bootstrap-tour-0.12.0/build/js/bootstrap-tour.min.js"></script>
+	<script src="tutorial.js"></script>
+</body>
+</html>
+​
